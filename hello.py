@@ -1,9 +1,6 @@
 def print_hello():
-    """
-    print formatted string with i if i is even.
-    else, print i is odd.
-    """
-    for i in range(1, 10+1):
+    num = int(input('How many numbers do you want to print?'))
+    for i in range(1, num+1):
         if i % 2 == 0:
             print('Hello Git for {}th time(s)!'.format(i))
         else:
